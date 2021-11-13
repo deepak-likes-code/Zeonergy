@@ -80,9 +80,9 @@ export default function CreateItem() {
         const price = ethers.utils.parseUnits(formInput.price, 'ether')
 
         /* then list the item for sale on the marketplace */
-        const connection = await web3Modal.connect()
-        const provider = new ethers.providers.Web3Provider(connection)
-        const signer = provider.getSigner()
+        connection = await web3Modal.connect()
+        provider = new ethers.providers.Web3Provider(connection)
+        signer = provider.getSigner()
         contract = new ethers.Contract(nftmarketaddress, Market.abi, signer)
         // let listingPrice = await contract.getListingPrice()
         // listingPrice = listingPrice.toString()
