@@ -1,5 +1,5 @@
-const nftaddress = "0xBffA16dc33227cE3085dbc7Da95755e4e7f69a3d"
+const nftaddress = "0xCb73e03DFb52208043aD937AFDc05D336a70eB16"
 
-const nftmarketaddress = "0x4cA1EfDf9dd88992af631955841bDD3CFa05f298"
+const nftmarketaddress = "0xfa0eddcd214dE5D072EdE1089052e9aAa68AB94a"
 
 export { nftaddress, nftmarketaddress }

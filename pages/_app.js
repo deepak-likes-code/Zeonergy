@@ -12,7 +12,12 @@ function MyApp({ Component, pageProps }) {
 
     <div>
       <nav className="border-b p-6 flex justify-between ">
-        <p className="text-4xl text-blue-500 font-bold">ZEONERGY</p>
+        <Link href="/">
+          <a>
+
+            <p className="text-4xl text-blue-500 font-bold">ZEONERGY</p>
+          </a>
+        </Link>
 
         <div className="flex mt-4">
           <Link href="/">
