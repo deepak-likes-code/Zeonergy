@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <Link href="/">
           <a>
 
-            <p className="text-4xl text-blue-500 font-bold">ZEONERGY</p>
+            <p className="text-4xl text-blue-500 font-bold">Creator Nation</p>
           </a>
         </Link>
 
@@ -33,6 +33,11 @@ function MyApp({ Component, pageProps }) {
           <Link href="/my-assets">
             <a className="mr-6 text-blue-500">
               My Digital Assets
+            </a>
+          </Link>
+          <Link href="/register-creator">
+            <a className="mr-6 text-blue-500">
+              Register Creator
             </a>
           </Link>
           <Link href="/creator-dashboard">
